@@ -31,8 +31,10 @@ The above will run:
   sapper/svelte app.
 - `$ firebase serve`: run your firebase project locally.
 
-## Deploy to firebase
+## Build & Deploy to firebase
 
 ```sh
+# build for production
+$ npm run build
 $ cd functions && npm run deploy
 ```
