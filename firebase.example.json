@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "site": "YOUR SITE NAME HERE",
+    "public": "static",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "./__sapper__",
+      "./.vscode",
+      "./.tmp"
+    ],
+    "trailingSlash": false,
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "sapper"
+      }
+    ]
+  }
+}
